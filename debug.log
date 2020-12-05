@@ -1,0 +1,6 @@
+[1205/065106.866:ERROR:directory_reader_win.cc(43)] FindFirstFile: El sistema no puede encontrar la ruta especificada. (0x3)
+[1205/065106.873:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\ivand\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\e21836ee-528f-4635-8cdf-00e7bfe19e25: El sistema no puede encontrar la ruta especificada. (0x3)
+[1205/065106.875:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\ivand\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\94a16a84-1460-4b67-9551-27a9b1dade83: El sistema no puede encontrar la ruta especificada. (0x3)
+[1205/065106.877:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\ivand\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\c889b39d-919e-454e-ac2d-d5053db8adfd: El sistema no puede encontrar la ruta especificada. (0x3)
+[1205/065106.882:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\ivand\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\9fa43d28-8e03-4450-aefb-0b28c5769829: El sistema no puede encontrar la ruta especificada. (0x3)
+[1205/065106.883:ERROR:filesystem_win.cc(129)] GetFileAttributes C:\Users\ivand\AppData\Local\Google\Chrome\User Data\Crashpad\attachments\fb5b3586-182c-40ef-b3a9-bc5e59887d63: El sistema no puede encontrar la ruta especificada. (0x3)
