@@ -6,15 +6,18 @@ import { useSelector } from 'react-redux';
 import { HeaderToggleState } from "src/redux/headerToggleReducer"
 
 import './header.scss';
+interface State {
+    headerToggle: HeaderToggleState;
+}
 
 const Header = () => {
 
-    const displayState = useSelector((state: HeaderToggleState) =>state.className);
+    const displayState = useSelector((state: State) => state.headerToggle.className);
 
     return (
         <header className={`header ${displayState}`}>
             <div className="left">
-                <div>MODELS</div>
+                <h3>Projects</h3>
                 <NavLink to={'./home'} activeClassName='activeRoute'>Home</NavLink>
             </div>
             <div className="right">

@@ -5,7 +5,7 @@ import { showHeader } from 'src/redux/actions';
 
 import LittleBurger from 'src/components/littleBurger';
 
-import './HeaderToggle.scss';
+import './headerToggle.scss';
 
 const HeaderToggle = () => {
 

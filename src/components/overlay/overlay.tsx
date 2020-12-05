@@ -6,10 +6,14 @@ import { hideHeader } from 'src/redux/actions';
 //redux
 import { HeaderToggleState } from "src/redux/headerToggleReducer"
 
-import './Overlay.scss';
+//style
+import './overlay.scss';
+interface State {
+  headerToggle: HeaderToggleState;
+}
 
 const Overlay = () => {
-    const displayState = useSelector((state: HeaderToggleState)=>state.className);
+    const displayState = useSelector((state: State)=>state.headerToggle.className);
 
     const dispatch = useDispatch();
 

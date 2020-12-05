@@ -42,6 +42,11 @@
         position: sticky;
         top:0;
 
+        h3{
+            color: white;
+            padding: 8px;
+        }
+
         .left, .right{
             @include flex-complete($direction: row, $justify: flex-start, $align: center);
             width: auto;

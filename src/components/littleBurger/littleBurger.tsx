@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './LittleBurger.scss';
+import './littleBurger.scss';
 
 interface LittleBurgerProps {
     handleToggle: () => void;
