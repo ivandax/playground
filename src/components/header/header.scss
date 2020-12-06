@@ -15,6 +15,9 @@
     .left, .right{
         @include flex-complete($direction: column, $justify: flex-start, $align: flex-start);
         width: 100%;
+        h3{
+            padding: 8px;
+        }
         a{
             width: 100%;
             color: black;
@@ -43,8 +46,8 @@
         top:0;
 
         h3{
-            color: white;
             padding: 8px;
+            color: white;
         }
 
         .left, .right{

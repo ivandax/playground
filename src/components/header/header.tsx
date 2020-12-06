@@ -17,8 +17,9 @@ const Header = () => {
     return (
         <header className={`header ${displayState}`}>
             <div className="left">
-                <h3>Projects</h3>
+                <h3>Manager</h3>
                 <NavLink to={'./home'} activeClassName='activeRoute'>Home</NavLink>
+                <NavLink to={'./stocks'} activeClassName='activeRoute'>Stock</NavLink>
             </div>
             <div className="right">
                 <NavLink to={'./login'} activeClassName='activeRoute'>Login</NavLink>
